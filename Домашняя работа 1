@@ -1,0 +1,9 @@
+//КТбо1-5 Водопьянова К.А.
+#include <iostream>;
+using namespace std;
+int main() {
+	int x, y;
+	cin >> x >> y;
+	int c = x > y ? x : y;
+	cout << c;
+}
